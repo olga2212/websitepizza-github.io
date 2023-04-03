@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+     <link rel="icon" href="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza-box.png?v=1668512773047">
+      <script src="https://kit.fontawesome.com/e8a9784bfe.js" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">PIZZ<span>ON</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="#menu">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#reservations">RESERVATIONS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contacts">CONTACTS</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="d-flex justify-content-center">
+         <div id="carouselExampleIndicators" class="carousel slide w-75 carousel-fade" data-bs-ride="true">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mt-5">
+               <div class="carousel-item active">
+                  <img  src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza1.jpg?v=1668511669217" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                  <img src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza2.jpg?v=1668511673184" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                  <img src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza3.jpg?v=1668511679240" class="d-block w-100" alt="...">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </div>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
+         <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+               <img class="icon" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/wedding-dinner.png?v=1668511689637" alt="" width="50px">
+            </div>
+            <p class="features fs-6">Order your food</p>
+         </div>
+         <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+               <img class="icon" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/free-delivery.png?v=1668511644143" alt="" width="50px">
+            </div>
+            <p class="features fs-6">Delivery</p>
+         </div>
+         <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+               <img class="icon" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza%20(2).png?v=1668511657666" alt="" width="50px">
+            </div>
+            <p class="features fs-6">Order your food</p>
+         </div>
+      </div>
+      <div class="orderBtn">
+         <button class="btnOne"> ORDER NOW</button>
+      </div>
+      <div id="menu" >
+      <h2 class="heading" > <i>OUR MENU</i> </h2>
+      <div class="menu">
+         <img class="pizzaLeft" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza%20(4).png?v=1668511663799" alt="" width="200px">
+         <img class="pizzaLeftTwo" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza%20(3).png?v=1668511661169" alt="" width="200px">
+         <img class="menuImg" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/file.jpeg?v=1668511640597" alt="">
+         <img class="pizzaOne" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza%20(3).png?v=1668511661169" alt="" width="200px">
+         <img class="pizzaTwo" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza%20(4).png?v=1668511663799" alt="" width="200px">
+      </div>
+        </div>
+     <div id="about">
+      <h2 class="heading" ><i>OUR STORY</i></h2>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-center">
+         <div class="  me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <img class="oven" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/oven.jpg?v=1668511649397" alt="oven">
+         </div>
+         <div class="about bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <p> Pizzon is not your average pizzeria.<br>
+               Founded in 1988, Pizzon combines old world quality,<br> 
+               values and work ethic with new world ambiance and award winning appeal. <br>
+               Today, we continues to make fresh dough daily — often twice daily — from scratch. <br>
+               Produce is delivered 6 days a week to ensure only the freshest ingredients possible. <br>
+               We only use one hundred percent whole milk mozzarella grated daily on site and <br>
+               nothing but fresh toppings, as we know there is no substitute for quality. <br>
+               While quality, handmade pizza created in the classic New York tradition <br>
+               is the cornerstone of  Pizzon,the ambiance of the restaurant adds to its appeal.
+            </p>
+         </div>
+      </div>
+       </div>
+     <div id="reservations">
+      <h2 class="heading" ><i>BOOK A TABLE</i></h2>
+      <form>
+         <label>Your name</label>
+         <input type="text" placeholder="Name...">
+         <label>Your email</label>
+         <input type="email" placeholder="Email...">
+         <label >Number of people</label>
+         <input type="text" placeholder="How many people?">
+         <label>Date</label>
+         <input type="date">
+      </form>
+       </div>
+      <div class="orderBtn">
+         <button class="btnOne"> BOOK NOW</button>
+      </div>
+     <div id="contacts">
+      <h2 class="heading" ><i>CONTACTS</i></h2>
+      <img class="contactsImg" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizzaB.jpg?v=1668511683617" alt="">
+      <p class="contacts">20 Carrochan Rd, Balloch, Alexandria G83 8EG, <br>
+         UK 69QJ+2F Alexandria, United Kingdom <br>
+         PHONE - +91 123 456 789 0 , +91 123 456 789 0 <br>
+         EMAIL - support@pizzon.com
+      </p>
+      <div class="schedule">
+         <p class="hours"> OPENING HOURS</p>
+         <ul>
+            <li>Mon - Tues :6.00 am - 10.00 pm</li>
+            <li>Wednes - Thurs :6.00 am - 10.00 pm</li>
+            <li>Lunch :Everyday</li>
+            <li>Sunday : CLOSED</li>
+         </ul>
+      </div>
+       </div>
+      <div class="imgContainer">
+         <img class="footer one" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza3.jpg?v=1668511679240" alt=""> 
+         <img class="footer two" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza1.jpg?v=1668511669217" alt="">
+         <img class="footer three" src="https://cdn.glitch.global/29809928-dfef-4b25-96b8-e0be317bba69/pizza2.jpg?v=1668511673184" alt="">
+      </div>
+      <footer class=" bg-dark d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+         <span class="mb-3 mb-md-0 text-muted">© Pizzon all Rights Reserved</span>
+         </div>
+         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li><a href="https://wa.me/00000000000" target="_blank"><img class="icon-bottom" src="https://cdn.glitch.global/df934c41-7f59-4c78-b397-2fc9c1f838e5/wup.png?v=1649333928850" alt="whatsApp"></a> </li>
+            <li><a href="https://telegram.me" target="_blank"><img class="icon-bottom" src="https://cdn.glitch.global/df934c41-7f59-4c78-b397-2fc9c1f838e5/telegr.png?v=1649333913794" alt="telegram"></a></li>
+            <li><a href="viber://chat?number=%00000000000" target="_blank"><img class="icon-bottom" src="https://cdn.glitch.global/df934c41-7f59-4c78-b397-2fc9c1f838e5/viber.png?v=1649333920717" alt="viber"></a></li>
+            <li> <a href="https://www.instagram.com" target="_blank"><img class="icon-bottom" src="https://cdn.glitch.global/df934c41-7f59-4c78-b397-2fc9c1f838e5/inst.png?v=1649333684028" alt="instagram"></a></li>
+         </ul>
+         </ul>
+      </footer>
+         <div class="Anas">
+              
+<a class="Anastaisha" href="mailto:olga221282@yandex.ru">© 2022 Anastaisha_developer</a>  
+    </div >
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
